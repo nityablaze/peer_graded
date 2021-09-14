@@ -1,0 +1,114 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-size: 16px;
+    color: rgb(245, 245, 245);
+    background-color: #FCD0BA;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #8FB9A8;
+    border-radius: 0;
+    border: 0;
+}
+
+.container {
+    margin: 0px; 
+}
+
+.navbar-brand {
+    height: 100px;
+    padding-top: 37px;
+    padding-left: 35px;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    color: #ffffff;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-toggle { 
+    margin-top: 30px;
+}
+
+.collapsable-nav {
+    background-color: ;
+}
+
+#nav-list {
+    margin: 0px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    background-color: #FEFAD4;
+}
+
+#nav-list a {
+    font-size: 1.3em;
+    color: #765D69;
+    padding: 10px;
+    border-bottom: 3px solid #e4e0be;
+}
+    
+#nav-list a:hover {
+    background-color: #ffe1d4;
+    color: #834667;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.our-menu a:hover, .our-menu a:focus {
+    text-decoration: none;
+}
+
+.our-menu h2 {
+    text-align: center;
+    color: #5c2f46;
+    font-size: 2.3em;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.row {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    line-height: 2;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffe7d0;
+    color: teal;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+h3 {
+    color: teal;
+    background-color: #ffe7d0;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.8em;
+}
